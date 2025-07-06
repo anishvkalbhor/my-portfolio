@@ -39,13 +39,6 @@ export function EnhancedProfile() {
             </div>
           </div>
 
-          <div className="flex flex-wrap gap-2 justify-center mb-4">
-            {personalInfo.badges.map((badge, index) => (
-              <Badge key={index} variant="outline" className="bg-zinc-800/50 hover:bg-zinc-700">
-                {badge}
-              </Badge>
-            ))}
-          </div>
 
           <SocialLinks socialLinks={personalInfo.social} />
         </div>
@@ -84,43 +77,14 @@ export function EnhancedProfile() {
               <p className="text-sm">{aboutInfo.bio}</p>
             </div>
 
-            <div className="space-y-3">
-              <h3 className="text-sm font-medium text-zinc-400 flex items-center">
-                <Briefcase className="w-4 h-4 mr-2 text-cyan-400" />
-                Professional Focus
-              </h3>
-              <div className="space-y-2">
-                {aboutInfo.focus.map((item, index) => (
-                  <div key={index} className="flex items-start">
-                    <span className="text-cyan-400 mr-2">•</span>
-                    <p className="text-sm">{item}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            <div className="space-y-3">
-              <h3 className="text-sm font-medium text-zinc-400 flex items-center">
-                <Languages className="w-4 h-4 mr-2 text-cyan-400" />
-                Languages
-              </h3>
-              <div className="space-y-3">
-                {aboutInfo.languages.map((language, index) => (
-                  <div key={index} className="space-y-1">
-                    <div className="flex justify-between items-center">
-                      <span className="text-sm">{language.name}</span>
-                      <span className="text-xs text-zinc-400">{language.proficiency}</span>
-                    </div>
-                    <div className="h-1.5 bg-zinc-800 rounded-full overflow-hidden">
-                      <div
-                        className="h-full bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full"
-                        style={{ width: `${language.level}%` }}
-                      ></div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
+            <div className="flex flex-wrap gap-2 justify-center mb-4">
+            {personalInfo.badges.map((badge, index) => (
+              <Badge key={index} variant="outline" className="bg-zinc-800/50 hover:bg-zinc-700">
+                {badge}
+              </Badge>
+            ))}
+          </div>
+          
           </TabsContent>
 
           <TabsContent value="contact" className="p-4 sm:p-6 space-y-4 focus:outline-none">

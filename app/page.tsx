@@ -106,9 +106,9 @@ export default function Home() {
 
                     <AnimatedSection animation="slide-right" delay={300}>
                       <div className="space-y-3">
-                        <h4 className="text-sm font-medium text-zinc-400">UX Methods</h4>
+                        <h4 className="text-sm font-medium text-zinc-400">Frontend</h4>
                         <div className="flex flex-wrap gap-2">
-                          {technicalSkills.uxMethods.map((skill, index) => (
+                          {technicalSkills.frontend.map((skill, index) => (
                             <SkillTagComponent key={index}>{skill}</SkillTagComponent>
                           ))}
                         </div>
@@ -119,7 +119,7 @@ export default function Home() {
                       <div className="space-y-3">
                         <h4 className="text-sm font-medium text-zinc-400">Soft Skills</h4>
                         <div className="flex flex-wrap gap-2">
-                          {technicalSkills.softSkills.map((skill, index) => (
+                          {technicalSkills.backend.map((skill, index) => (
                             <SkillTagComponent key={index}>{skill}</SkillTagComponent>
                           ))}
                         </div>

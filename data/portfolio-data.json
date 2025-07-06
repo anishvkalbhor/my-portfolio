@@ -1,74 +1,43 @@
 {
   "meta": {
-    "title": "Jane Doe | Product Designer",
-    "description": "Portfolio website showcasing product design work and skills"
+    "title": "Anish Kalbhor | Upcoming Software Engineer",
+    "description": "Portfolio website showcasing software engineering work and skills"
   },
   "personal": {
-    "name": "Jane Doe",
-    "title": "Product Designer",
-    "location": "San Francisco, CA",
-    "avatar": "/confident-professional.png",
-    "email": "jane.doe@example.com",
-    "phone": "+1 (415) 555-2671",
-    "workingHours": "Monday - Friday, 9am - 5pm PST",
+    "name": "Anish Kalbhor",
+    "title": "Upcoming Software Engineer",
+    "location": "Mumbai, India",
+    "avatar": "/profile.png",
+    "email": "anishkalbhor2020@gmail.com",
+    "phone": "+91-9325359422",
+    "workingHours": "Monday - Friday, 9am - 5pm IST",
     "availableForWork": true,
-    "badges": ["UI/UX", "Product Design", "Prototyping"],
+    "badges": ["Develop", "Innovate", "Build"],
     "social": [
       {
         "platform": "GitHub",
-        "url": "#",
+        "url": "https://github.com/anishvkalbhor",
         "icon": "Github"
       },
       {
         "platform": "LinkedIn",
-        "url": "#",
+        "url": "https://www.linkedin.com/in/anishvkalbhor/",
         "icon": "Linkedin"
       },
       {
-        "platform": "Twitter",
-        "url": "#",
-        "icon": "Twitter"
+        "platform": "Leetcode",
+        "url": "https://leetcode.com/u/anishkalbhor/",
+        "icon": "Leetcode"
       },
       {
-        "platform": "Instagram",
-        "url": "#",
-        "icon": "Instagram"
+        "platform": "Resume",
+        "url": "https://anishvkalbhor-resume.vercel.app",
+        "icon": "Resume"
       }
     ]
   },
   "about": {
-    "bio": "I create user-centered digital experiences that solve real problems. Passionate about accessibility and ethical design with over 5 years of experience in product design and user experience research.",
-    "focus": [
-      "Creating intuitive and accessible digital products",
-      "Leading design teams and establishing design systems",
-      "Conducting user research to inform product decisions"
-    ],
-    "languages": [
-      {
-        "name": "English",
-        "proficiency": "Native",
-        "level": 100,
-        "flag": "🇺🇸"
-      },
-      {
-        "name": "Spanish",
-        "proficiency": "Fluent",
-        "level": 80,
-        "flag": "🇪🇸"
-      },
-      {
-        "name": "French",
-        "proficiency": "Intermediate",
-        "level": 60,
-        "flag": "🇫🇷"
-      },
-      {
-        "name": "German",
-        "proficiency": "Basic",
-        "level": 30,
-        "flag": "🇩🇪"
-      }
-    ],
+    "bio": "I'm a full stack developer passionate about building scalable web applications. I specialize in both frontend and backend technologies, with a focus on creating seamless user experiences and robust backend systems.",
     "interests": ["Design Systems", "Accessibility", "Typography", "Motion Design", "Photography"]
   },
   "navigation": [
@@ -95,99 +64,71 @@
   ],
   "experience": [
     {
-      "title": "Senior Product Designer",
-      "company": "TechCorp Inc.",
-      "period": "2021 - Present",
-      "description": "Lead the design of flagship products, managing a team of 3 designers. Implemented a design system that reduced design inconsistencies by 60% and improved development time by 40%. Conducted user research and usability testing to inform product decisions.",
+      "title": "Software Engineer Intern",
+      "company": "Lumovate Intelligence",
+      "period": "May 2025 - Present",
+      "description": "Developing a sophisticated dating web application featuring modern authentication, interactive user onboarding, and a comprehensive partner preference system. The platform combines sleek UI design with robust user management and data persistence capabilities.",
       "achievements": [
-        "Redesigned the main dashboard, increasing user engagement by 35%",
-        "Led the design for 3 major feature launches, contributing to a 25% increase in user retention",
-        "Established design processes that improved team collaboration and product quality"
+        "Converted 35% of questionnaire questions to interactive preference cards, significantly improving completion rates",
+        "Eliminated authentication bottlenecks by replacing localStorage auth with Clerk",
+        "Implemented efficient state management for complex multi-step forms"
       ],
-      "technologies": ["Figma", "Adobe XD", "Prototyping", "User Research"]
-    },
-    {
-      "title": "UX Designer",
-      "company": "Design Studio X",
-      "period": "2018 - 2021",
-      "description": "Collaborated with cross-functional teams to design intuitive and engaging user experiences for various client projects. Created wireframes, prototypes, and high-fidelity designs for web and mobile applications.",
-      "achievements": [
-        "Designed interfaces for 12+ client projects across fintech, healthcare, and e-commerce",
-        "Improved conversion rates by an average of 22% through data-driven design iterations",
-        "Mentored junior designers and facilitated design thinking workshops"
-      ],
-      "technologies": ["Sketch", "InVision", "User Testing", "Information Architecture"]
-    },
-    {
-      "title": "UI/UX Intern",
-      "company": "Creative Solutions",
-      "period": "2017 - 2018",
-      "description": "Assisted the design team in creating visual assets and interface components. Participated in brainstorming sessions and contributed to the design of marketing websites and mobile applications.",
-      "achievements": [
-        "Redesigned the company website, improving mobile responsiveness",
-        "Created a component library that streamlined the design process",
-        "Conducted competitive analysis for 5 client projects"
-      ],
-      "technologies": ["Adobe Creative Suite", "HTML/CSS", "Wireframing"]
+      "technologies": ["Nextjs", "Typescript", "Framer Motion", "Tailwind CSS", "Clerk"]
     }
   ],
   "credentials": {
     "certifications": [
       {
-        "name": "Certified UX Professional",
-        "issuer": "Nielsen Norman Group",
-        "date": "2022",
+        "name": "Complete DSA Bootcamp using Python",
+        "issuer": "Udemy",
+        "date": "2025",
         "logo": "/nng-logo.png"
       },
       {
-        "name": "Professional Product Designer",
-        "issuer": "Interaction Design Foundation",
-        "date": "2021",
-        "logo": "/generic-military-logo.png"
-      },
-      {
-        "name": "Design Leadership Certification",
-        "issuer": "IDEO",
-        "date": "2020",
-        "logo": "/ideo-logo.png"
+        "name": "Making website using Wordpress",
+        "issuer": "Udemy",
+        "date": "2024",
+        "logo": "/nng-logo.png"
       }
     ],
     "education": [
       {
-        "degree": "Master of Fine Arts in Design",
-        "institution": "Rhode Island School of Design",
-        "year": "2015-2017",
-        "logo": "/generic-art-school-logo.png"
-      },
-      {
-        "degree": "Bachelor of Arts in Visual Communication",
-        "institution": "California Institute of the Arts",
-        "year": "2011-2015",
+        "degree": "Bachelor of Engineering in Information Technology",
+        "institution": "University of Mumbai",
+        "year": "2022 - 2026",
         "logo": "/calarts-logo.png"
       }
     ],
     "skills": [
-      "UI Design",
-      "UX Research",
-      "Design Systems",
-      "Wireframing",
-      "Prototyping",
-      "User Testing",
-      "Accessibility",
-      "Design Thinking"
+      "Nextjs",
+      "Typescript",
+      "React",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Git"
     ]
   },
   "technicalSkills": {
-    "design": ["Figma", "Sketch", "Adobe XD", "Illustrator", "Photoshop", "InVision", "Principle", "Framer"],
+    "design": ["Canva", "Framer"],
     "development": ["HTML/CSS", "JavaScript", "React", "Tailwind", "SCSS", "Git", "Responsive Design"],
-    "uxMethods": [
-      "User Research",
-      "Usability Testing",
-      "Wireframing",
-      "Prototyping",
-      "Information Architecture",
-      "User Flows"
+    "frontend": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Framer Motion",
+      "Tailwind CSS",
+      "Styled Components"
     ],
-    "softSkills": ["Team Leadership", "Project Management", "Client Communication", "Mentoring", "Presentations"]
+    "backend": [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Git",
+      "REST APIs",
+      "Firebase"
+    ]
   }
 }

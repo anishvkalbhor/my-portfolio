@@ -33,24 +33,20 @@ export interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    slug: "job-finder-app",
-    title: "Job Finder App",
+    slug: "Carryure",
+    title: "Carryure",
     category: "Mobile App",
     shortDescription: "A modern job search application designed to connect job seekers with employers efficiently.",
-    description: [
-      "The Job Finder App is a comprehensive mobile application designed to streamline the job search process. It provides an intuitive interface for job seekers to discover opportunities that match their skills and preferences.",
-      "The app features a smart matching algorithm that analyzes user profiles and job requirements to suggest the most relevant positions. Users can easily filter jobs by location, industry, experience level, and salary range.",
-      "For employers, the platform offers tools to post job listings, review applications, and communicate with potential candidates directly through the app.",
+    description: ["This project is a user-friendly E-Pharmacy web application developed using ReactJS and Firebase. It provides users with a seamless experience for browsing and purchasing medicines online, with functionalities that cater to both customers and administrators. This project was created as part of a submission assignment, focusing on delivering an intuitive and efficient online pharmacy platform."
     ],
     features: [
-      "Personalized job recommendations based on user skills and preferences",
-      "Real-time notifications for new job postings and application updates",
-      "In-app messaging system for direct communication between employers and candidates",
-      "Resume builder with templates and formatting tools",
-      "Interview scheduling and calendar integration",
-      "Detailed analytics for job seekers to track their application progress",
+      "🏠 Home & Search – Browse medicines with search and detailed info for each item.",
+      "🛒 Cart & Orders – Add to cart, adjust quantity, view order history.",
+      "👤 User Profile – Edit profile image and name; auto-fetch login details.",
+      "⚙️ Admin Panel – CRUD operations for managing medicine inventory.",
+      "🌍 Integrations – Google Meet for consultations; map to locate nearby clinics."
     ],
-    technologies: ["React Native", "TypeScript", "Node.js", "Express", "MongoDB", "AWS", "Firebase"],
+    technologies: ["React", "Javascript", "Node.js", "Express", "Firebase", "Framer Motion", "OpenStreetMap API"],
     coverImage: "/job-finder-cover.png",
     thumbnailImage: "/modern-finance-app.png",
     gallery: [
@@ -59,10 +55,10 @@ const projects: Project[] = [
       { url: "/job-finder-screen3.png", caption: "User Profile and Skills" },
       { url: "/job-finder-screen4.png", caption: "Application Tracking Dashboard" },
     ],
-    timeline: "3 months (Q2 2023)",
-    role: "Lead Product Designer",
-    liveUrl: "https://example.com/job-finder",
-    githubUrl: "https://github.com/example/job-finder",
+    timeline: "3 months",
+    role: "Full Stack Developer",
+    liveUrl: "https://example.com/carrycure",
+    githubUrl: "https://github.com/anishvkalbhor/mini",
     relatedProjects: [
       {
         slug: "finance-dashboard",
