@@ -133,7 +133,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
                         <AnimatedSection key={index} animation="zoom-in" delay={100 * (index + 1)}>
                           <div className="relative h-40 sm:h-48 rounded-lg overflow-hidden border border-zinc-800">
                             <Image
-                              src={image.url || "/placeholder.svg"}
+                              src={image.url || "./placeholder.svg"}
                               alt={image.caption || `Gallery image ${index + 1}`}
                               fill
                               className="object-cover"
@@ -188,7 +188,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
                             <div className="flex items-center gap-2 sm:gap-3">
                               <div className="relative w-12 h-12 sm:w-16 sm:h-16 rounded overflow-hidden flex-shrink-0">
                                 <Image
-                                  src={related.image || "/placeholder.svg"}
+                                  src={related.image || "./placeholder.svg"}
                                   alt={related.title}
                                   fill
                                   className="object-cover"

@@ -23,7 +23,7 @@ export function EnhancedProfile() {
           <div className="flex flex-col sm:flex-col items-center w-full">
             <div className="relative w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden mb-4 border-2 border-cyan-400/20 ring-4 ring-zinc-800/50">
               <Image
-                src={personalInfo.avatar || "/placeholder.svg"}
+                src={personalInfo.avatar || "./placeholder.svg"}
                 alt={personalInfo.name}
                 fill
                 className="object-cover"
