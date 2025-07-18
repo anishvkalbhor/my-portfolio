@@ -110,11 +110,25 @@ export function PortfolioHeader() {
       {/* Mobile Navigation */}
       <div
         className={cn(
-          "fixed inset-0 bg-black/95 z-40 flex flex-col pt-20 px-4 md:hidden transition-all duration-500",
+          "fixed inset-0 bg-black z-40 flex flex-col md:hidden transition-all duration-500",
           mobileMenuOpen ? "opacity-100 translate-x-0" : "opacity-0 translate-x-full pointer-events-none",
         )}
       >
-        <nav className="flex flex-col space-y-4">
+        {/* Close button for mobile menu */}
+        <div className="flex justify-end p-4">
+          <button
+            onClick={() => setMobileMenuOpen(false)}
+            className="text-zinc-400 hover:text-white transition-colors duration-300 relative overflow-hidden group"
+            aria-label="Close menu"
+          >
+            <span className="relative z-10">
+              <X size={24} />
+            </span>
+            <span className="absolute inset-0 scale-0 rounded-full bg-zinc-700/50 group-hover:scale-100 transition-transform duration-300"></span>
+          </button>
+        </div>
+
+        <nav className="flex flex-col space-y-4 px-4">
           {navItems.map((item, index) => {
             const isActive = item.href === "/" ? activeSection === "" : activeSection === item.href.substring(1)
 
