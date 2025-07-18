@@ -49,7 +49,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
             <Card className="bg-zinc-900/70 border-zinc-800 backdrop-blur-sm overflow-hidden">
               <div className="relative h-48 sm:h-64 md:h-80 w-full">
                 <Image
-                  src={project.coverImage || "/placeholder.svg"}
+                  src={project.coverImage || "./meetai-cover.png"}
                   alt={project.title}
                   fill
                   className="object-cover"
@@ -217,7 +217,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
           delay={500}
           className="mt-8 sm:mt-12 py-4 sm:py-6 text-center text-xs sm:text-sm text-zinc-500"
         >
-          <p>© {new Date().getFullYear()} Jane Doe. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Anish Kalbhor. All rights reserved.</p>
         </AnimatedSection>
       </div>
 

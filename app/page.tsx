@@ -117,7 +117,7 @@ export default function Home() {
 
                     <AnimatedSection animation="slide-left" delay={400}>
                       <div className="space-y-3">
-                        <h4 className="text-sm font-medium text-zinc-400">Soft Skills</h4>
+                        <h4 className="text-sm font-medium text-zinc-400">Backend</h4>
                         <div className="flex flex-wrap gap-2">
                           {technicalSkills.backend.map((skill, index) => (
                             <SkillTagComponent key={index}>{skill}</SkillTagComponent>
@@ -168,7 +168,7 @@ export default function Home() {
           delay={500}
           className="mt-8 sm:mt-12 py-4 sm:py-6 text-center text-xs sm:text-sm text-zinc-500"
         >
-          <p>© {new Date().getFullYear()} Jane Doe. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Anish Kalbhor. All rights reserved.</p>
         </AnimatedSection>
       </div>
 
