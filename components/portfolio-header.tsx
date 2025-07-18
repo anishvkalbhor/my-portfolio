@@ -53,7 +53,6 @@ export function PortfolioHeader() {
     <header
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-4",
-        scrolled ? "bg-zinc-900/90 backdrop-blur-md shadow-md py-2" : "bg-transparent",
       )}
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
@@ -110,7 +109,7 @@ export function PortfolioHeader() {
       {/* Mobile Navigation */}
       <div
         className={cn(
-          "fixed inset-0 bg-black z-40 flex flex-col md:hidden transition-all duration-500",
+          "fixed inset-0 bg-black z-[60] flex flex-col md:hidden transition-all duration-500",
           mobileMenuOpen ? "opacity-100 translate-x-0" : "opacity-0 translate-x-full pointer-events-none",
         )}
       >
